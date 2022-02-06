@@ -1,0 +1,41 @@
+<div style='width:100%;'>
+    <div class='enable-horizontal'>
+        <div class='col-sm-12'>
+            <table class='table dark-gray-color'>
+                <thead class='show-border'>
+                    <tr>
+                        <th style='width:60px;'>סטטוס</th>
+                        <th style='width:80px;' class='text-right'>קוד</th>
+                        <th style='width:100px;'>שם</th>
+                    </tr>
+                </thead>
+            </table>
+            <div class='row modal-complete-height scrollable'>
+                <div class='col-sm-12'>
+                    <table class='table import-preview dark-gray-color'>
+                        <tbody>
+                            <tr>
+                                <td style='width:60px;color:red'>
+                                    חדש
+                                </td>
+                                <td style='width:80px;color:red' class='text-right'>{{ cell|format_importing_data }}{% if valid_cell == 1 and not cell %}Null</td>
+                                <td style='width:100px;color:red'>{{ cell|format_importing_data }}{% if valid_cell == 1 and not cell %}Null</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>
+                                    <div class='spinner'>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

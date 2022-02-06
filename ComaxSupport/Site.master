@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Dynamic Data Site</title>
+</head>
+<body>
+
+</body>
+</html>
+

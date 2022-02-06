@@ -1,0 +1,12 @@
+<<<<<<< .mine
+{"AnimalDetails":"פרטי בעל חיים","GridDeleteInfo":"זהירות: לא ניתן לבטל זאת","FieldErrorInvalidCode":"קוד כבר קיים","FieldErrorInvalid":"שדה שגוי","NotifyFileMissing":"יש למלא קובץ","LabelSelectFile":"בחירת קובץ...","LableOsekFile":"!עוסק מורשה חייב להיות בן 9 ספרות","UserMenuChangeLanguage":"החלפת שפה","UserMenuLogOut":"יציאה","UserMenuLogOutSure":"האם אתה בטוח שברצונך לצאת?","UserMenuHelp":"עזרה"}||||||| .r14764
+{
+  "AnimalDetails": "פרטי בעל חיים",
+  "GridDeleteInfo": "זהירות: לא ניתן לבטל זאת",
+  "FieldErrorInvalidCode": "קוד כבר קיים",
+  "FieldErrorInvalid": "שדה שגוי",
+  "NotifyFileMissing": "יש למלא קובץ",
+  "LabelSelectFile": "בחירת קובץ...",
+  "LableOsekFile": "!עוסק מורשה חייב להיות בן 9 ספרות"
+}=======
+{"AnimalDetails":"פרטי בעל חיים","GridDeleteInfo":"זהירות: לא ניתן לבטל זאת","FieldErrorInvalidCode":"קוד כבר קיים","FieldErrorInvalid":"שדה שגוי","NotifyFileMissing":"יש למלא קובץ","LabelSelectFile":"בחירת קובץ...","LableOsekFile":"!עוסק מורשה חייב להיות בן 9 ספרות","UserMenuChangeLanguage":"החלפת שפה"}>>>>>>> .r14797

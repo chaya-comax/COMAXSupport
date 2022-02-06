@@ -1,0 +1,1619 @@
+#top-bar {
+    direction: rtl;
+}
+
+    #top-bar #company-name {
+        float: left;
+    }
+
+    #top-bar .pull-right {
+        float: right !important;
+    }
+
+#menu {
+    left: -100%;
+    transition: right 150ms;
+}
+
+    #menu.active {
+        left: 0;
+    }
+
+    #menu .view-port .menu {
+        direction: ltr;
+    }
+
+        #menu .view-port .menu > li {
+            float: left;
+        }
+
+            #menu .view-port .menu > li .menu-item {
+                text-align: -webkit-left;
+            }
+
+                #menu .view-port .menu > li .menu-item .icon {
+                    float: left;
+                }
+
+            #menu .view-port .menu > li .sub-menu {
+                direction: ltr;
+            }
+
+            #menu .view-port .menu > li.active .menu-item::after {
+                bottom: -21px;
+                left: 50%;
+                margin-left: -10px;
+            }
+
+    #menu #menu-search {
+        left: 385px;
+        right: auto;
+    }
+
+        #menu #menu-search .input {
+            text-align: left;
+        }
+
+.pull-left {
+    float: right !important;
+}
+
+.pull-right {
+    float: left !important;
+}
+
+#top-bar .pull-right {
+    float: left !important;
+}
+
+#user-menu {
+    left: unset;
+    right: -406px;
+    padding: 8px;
+    transition: right 250ms;
+}
+
+    #user-menu.active {
+        left: unset;
+        right: 0;
+    }
+
+    #user-menu .menu li {
+        float: left;
+    }
+
+        #user-menu .menu li:nth-child(3n + 1) {
+            clear: left;
+        }
+
+#notificationsBlock {
+    right: unset;
+    left: 100%;
+    margin-left: 10px;
+    margin-right: 0;
+    transition: margin-left 250ms;
+}
+
+#notificationsWrapper.active #notificationsBlock {
+    margin-right: 0;
+    margin-left: -400px;
+}
+
+#notificationsBlock #notificationsActions {
+    text-align: right;
+}
+
+#notificationsBlock #notifications {
+    direction: ltr;
+}
+
+#nav_tabs {
+    padding-right: 0;
+}
+
+    #nav_tabs li {
+        float: left;
+    }
+
+        #nav_tabs li.list-more {
+            float: right;
+        }
+
+            #nav_tabs li.list-more ul {
+                left: unset;
+                right: 20px;
+                min-width: 170px;
+            }
+
+        #nav_tabs li a {
+            padding: 16px 16px 16px 32px;
+        }
+
+        #nav_tabs li .close {
+            left: unset;
+            right: 4px;
+        }
+
+#page-content #content #content-area li.tab-pane > :nth-child(1) {
+    direction: ltr;
+    text-align: left;
+}
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) td.negative {
+        direction: rtl;
+    }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) #report_filters div {
+        margin-right: 0;
+        margin-left: 10px !important;
+    }
+
+        #page-content #content #content-area li.tab-pane > :nth-child(1) #report_filters div .date label {
+            float: left;
+            margin-right: 10px;
+        }
+
+        #page-content #content #content-area li.tab-pane > :nth-child(1) #report_filters div .date button {
+            position: absolute;
+            margin-right: 0;
+            margin-left: -19px;
+        }
+
+        #page-content #content #content-area li.tab-pane > :nth-child(1) #report_filters div .time input {
+            background-position-x: right;
+            padding-left: 0;
+            padding-right: 20px;
+        }
+
+        #page-content #content #content-area li.tab-pane > :nth-child(1) #report_filters div .time .dropdown-menu {
+            direction: rtl;
+        }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) #report_filters .divFilter {
+        right: unset;
+        left: 4px;
+    }
+
+        #page-content #content #content-area li.tab-pane > :nth-child(1) #report_filters .divFilter .title .pull-left {
+            float: right !important;
+        }
+
+        #page-content #content #content-area li.tab-pane > :nth-child(1) #report_filters .divFilter .btnFilter {
+            text-align: left;
+        }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) .table .head table tbody tr:last-of-type td input {
+        direction: rtl;
+        text-align: left;
+    }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) .table .foot table tr td:first-of-type {
+        border-right: 1px solid #d3d3d3;
+        text-align: right !important;
+    }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) .table .foot table tr td:last-of-type {
+        border-left: 0;
+    }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) table th {
+        text-align: left !important;
+    }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) table td.text-right {
+        text-align: left !important;
+    }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) table td:last-of-type {
+        border-left-width: 1px;
+    }
+
+    #page-content #content #content-area li.tab-pane > :nth-child(1) table .datepicker-trigger {
+        left: unset;
+        margin-right: unset;
+        margin-left: -18px;
+    }
+
+#content-area #dashboard .select-container {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+    #content-area #dashboard .select-container .select-arrow {
+        margin-left: 0;
+        margin-right: -15px;
+    }
+
+#page-content #content #content-area li[id='dashboard'].tab-pane {
+    direction: ltr;
+}
+
+    #page-content #content #content-area li[id='dashboard'].tab-pane div[id='vat_groups'] div h5 button.datepicker-trigger, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_month'] div h5 button.datepicker-trigger {
+        margin-right: 15px;
+        margin-left: -5px;
+    }
+
+    #page-content #content #content-area li[id='dashboard'].tab-pane div[id='vat_groups'] .table-wrapper, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_month'] .table-wrapper {
+        margin-left: -14%;
+    }
+
+        #page-content #content #content-area li[id='dashboard'].tab-pane div[id='vat_groups'] .table-wrapper table[id='vat-groups-table'] tr th, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='vat_groups'] .table-wrapper table[id='vat-groups-table'] tr td, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_month'] .table-wrapper table[id='vat-groups-table'] tr th, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_month'] .table-wrapper table[id='vat-groups-table'] tr td {
+            text-align: left;
+        }
+
+            #page-content #content #content-area li[id='dashboard'].tab-pane div[id='vat_groups'] .table-wrapper table[id='vat-groups-table'] tr th.negative, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='vat_groups'] .table-wrapper table[id='vat-groups-table'] tr td.negative, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_month'] .table-wrapper table[id='vat-groups-table'] tr th.negative, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_month'] .table-wrapper table[id='vat-groups-table'] tr td.negative {
+                direction: rtl;
+            }
+
+    #page-content #content #content-area li[id='dashboard'].tab-pane div[id='gauge_graph'] div.row > div:first-of-type {
+        float: left;
+    }
+
+    #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_today'] div.row .table-wrapper {
+        text-align: left;
+    }
+
+        #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_today'] div.row .table-wrapper div#customers_companies ul.list-unstyled, #page-content #content #content-area li[id='dashboard'].tab-pane div[id='graph_today'] div.row .table-wrapper div#locations ul.list-unstyled {
+            padding-left: 0;
+        }
+
+    #page-content #content #content-area li[id='dashboard'].tab-pane div[id='top_customers_month'], #page-content #content #content-area li[id='dashboard'].tab-pane div[id='top_items_month'], #page-content #content #content-area li[id='dashboard'].tab-pane div[id='top_items_month_qty'], #page-content #content #content-area li[id='dashboard'].tab-pane div[id='top_locations_month'], #page-content #content #content-area li[id='dashboard'].tab-pane div[id='top_customers_companies_month'] {
+        float: left;
+    }
+
+    #page-content #content #content-area li[id='dashboard'].tab-pane .table-wrapper > table thead th {
+        padding-left: 5px;
+    }
+
+    #page-content #content #content-area li[id='dashboard'].tab-pane svg {
+        direction: rtl;
+    }
+
+    #page-content #content #content-area li[id='dashboard'].tab-pane span[data-i18n='DashboardWordIn'] {
+        margin-left: 10px;
+    }
+
+#page-content #content #content-area li[id^='sales_report_'].tab-pane > :nth-child(1) #report_filters div, #page-content #content #content-area li[id^='purchasing_report_'].tab-pane > :nth-child(1) #report_filters div {
+    margin-left: 0 !important;
+}
+
+#inventory_report .head table tbody tr td:last-child {
+    border-left: 1px solid #d3d3d3;
+}
+
+#turnover_report .head table tbody tr td:first-of-type {
+    border-right: 1px solid #d3d3d3;
+}
+
+#work_hours_report div.row.form-group div,
+#item_balance_by_location_tab div.row.form-group div,
+#item_balance_tab div.row.form-group div {
+    float: left;
+}
+
+    #work_hours_report div.row.form-group div a.prev,
+    #item_balance_by_location_tab div.row.form-group div a.prev,
+    #item_balance_tab div.row.form-group div a.prev {
+        float: left;
+    }
+
+        #work_hours_report div.row.form-group div a.prev .glyphicon-chevron-right:before,
+        #item_balance_by_location_tab div.row.form-group div a.prev .glyphicon-chevron-right:before,
+        #item_balance_tab div.row.form-group div a.prev .glyphicon-chevron-right:before {
+            content: "\e080";
+        }
+
+    #work_hours_report div.row.form-group div a.next .glyphicon-chevron-left:before,
+    #item_balance_by_location_tab div.row.form-group div a.next .glyphicon-chevron-left:before,
+    #item_balance_tab div.row.form-group div a.next .glyphicon-chevron-left:before {
+        content: "\e079";
+    }
+
+    #work_hours_report div.row.form-group div label, #work_hours_report div.row.form-group div button.btnByBalance,
+    #item_balance_by_location_tab div.row.form-group div label,
+    #item_balance_by_location_tab div.row.form-group div button.btnByBalance,
+    #item_balance_tab div.row.form-group div label,
+    #item_balance_tab div.row.form-group div button.btnByBalance {
+        float: left;
+    }
+
+        #work_hours_report div.row.form-group div label.btnByBalance, #work_hours_report div.row.form-group div button.btnByBalance.btnByBalance,
+        #item_balance_by_location_tab div.row.form-group div label.btnByBalance,
+        #item_balance_by_location_tab div.row.form-group div button.btnByBalance.btnByBalance,
+        #item_balance_tab div.row.form-group div label.btnByBalance,
+        #item_balance_tab div.row.form-group div button.btnByBalance.btnByBalance {
+            margin-left: 0;
+            margin-right: 13px;
+        }
+
+    #work_hours_report div.row.form-group div:last-child,
+    #item_balance_by_location_tab div.row.form-group div:last-child,
+    #item_balance_tab div.row.form-group div:last-child {
+        margin-left: 0 !important;
+    }
+
+    #work_hours_report div.row.form-group div.divSelect,
+    #item_balance_by_location_tab div.row.form-group div.divSelect,
+    #item_balance_tab div.row.form-group div.divSelect {
+        right: unset;
+        left: 123px;
+        text-align: right;
+    }
+
+#work_hours_report table.table.header th:first-of-type:first-of-type,
+#item_balance_by_location_tab table.table.header th:first-of-type:first-of-type,
+#item_balance_tab table.table.header th:first-of-type:first-of-type {
+    border-right: 1px solid #ddd !important;
+    border-left: 0 !important;
+}
+
+#work_hours_report table.bottom-table td:first-of-type,
+#item_balance_by_location_tab table.bottom-table td:first-of-type,
+#item_balance_tab table.bottom-table td:first-of-type {
+    border-right: 1px solid #ddd !important;
+    text-align: right !important;
+}
+
+#work_hours_report table.bottom-table td:last-of-type,
+#item_balance_by_location_tab table.bottom-table td:last-of-type,
+#item_balance_tab table.bottom-table td:last-of-type {
+    border-left: none !important;
+}
+
+#work_hours_report .total_thin td.text-left,
+#item_balance_by_location_tab .total_thin td.text-left,
+#item_balance_tab .total_thin td.text-left {
+    text-align: right !important;
+}
+
+#location_register tbody tr .text-left {
+    text-align: right !important;
+}
+
+#location_register tbody tr :not(.text-left) {
+    text-align: left !important;
+}
+
+#location_register tbody tr .list td {
+    text-align: right !important;
+}
+
+    #location_register tbody tr .list td:last-child {
+        border-left: 1px solid #777;
+    }
+
+#location_register tbody tr th {
+    text-align: left !important;
+}
+
+    #location_register tbody tr th:last-child {
+        border-left: 1px solid #777;
+    }
+
+#location_register tbody tr .negative {
+    direction: rtl;
+    float: right;
+}
+
+#daily_inventory_movements table#print_view tbody tr:first-of-type td.text-left {
+    text-align: right !important;
+}
+
+#daily_inventory_movements .list tr td:last-child {
+    border-left: 1px solid black;
+}
+
+#daily_inventory_movements .list tr td:first-child {
+    border-left: none;
+}
+
+#work_hours_report.tab-pane > div > div:first-of-type > div:first-of-type + div {
+    padding-left: 15px !important;
+}
+
+    #work_hours_report.tab-pane > div > div:first-of-type > div:first-of-type + div + div {
+        padding-left: 0;
+        margin-left: -15px;
+    }
+
+#work_hours_report.tab-pane > div > div:first-of-type > div:last-of-type {
+    float: right;
+    margin-right: 15px;
+}
+
+#devices.tab-pane > div, #logins.tab-pane > div, #activity_logs.tab-pane > div, #news.tab-pane > div {
+    float: left;
+}
+
+#devices.tab-pane .date-picker input, #logins.tab-pane .date-picker input, #activity_logs.tab-pane .date-picker input, #news.tab-pane .date-picker input {
+    padding-left: 0 !important;
+}
+
+#devices.tab-pane .table-data .body td, #logins.tab-pane .table-data .body td, #activity_logs.tab-pane .table-data .body td, #news.tab-pane .table-data .body td {
+    direction: rtl;
+}
+
+#actions-bar {
+    direction: ltr;
+}
+
+    #actions-bar #filters .floating-filters .div-header-filters .clear-all {
+        margin-right: 0 !important;
+        float: right;
+    }
+
+    #actions-bar #filters > li .search {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+        #actions-bar #filters > li .search .editable {
+            margin-right: 6px;
+            width: calc(106% - 86px);
+        }
+
+    #actions-bar #filters > li .order_by .sorting-wrapper .sorting,
+    #actions-bar #filters > li .order_by .sorting-wrapper .filter,
+    #actions-bar #filters > li .order_by .sorting-wrapper .option,
+    #actions-bar #filters > li .order_by .filter-wrapper .sorting,
+    #actions-bar #filters > li .order_by .filter-wrapper .filter,
+    #actions-bar #filters > li .order_by .filter-wrapper .option,
+    #actions-bar #filters > li .order_by .option-wrapper .sorting,
+    #actions-bar #filters > li .order_by .option-wrapper .filter,
+    #actions-bar #filters > li .order_by .option-wrapper .option,
+    #actions-bar #filters > li .filter_by .sorting-wrapper .sorting,
+    #actions-bar #filters > li .filter_by .sorting-wrapper .filter,
+    #actions-bar #filters > li .filter_by .sorting-wrapper .option,
+    #actions-bar #filters > li .filter_by .filter-wrapper .sorting,
+    #actions-bar #filters > li .filter_by .filter-wrapper .filter,
+    #actions-bar #filters > li .filter_by .filter-wrapper .option,
+    #actions-bar #filters > li .filter_by .option-wrapper .sorting,
+    #actions-bar #filters > li .filter_by .option-wrapper .filter,
+    #actions-bar #filters > li .filter_by .option-wrapper .option,
+    #actions-bar #filters > li .options .sorting-wrapper .sorting,
+    #actions-bar #filters > li .options .sorting-wrapper .filter,
+    #actions-bar #filters > li .options .sorting-wrapper .option,
+    #actions-bar #filters > li .options .filter-wrapper .sorting,
+    #actions-bar #filters > li .options .filter-wrapper .filter,
+    #actions-bar #filters > li .options .filter-wrapper .option,
+    #actions-bar #filters > li .options .option-wrapper .sorting,
+    #actions-bar #filters > li .options .option-wrapper .filter,
+    #actions-bar #filters > li .options .option-wrapper .option {
+        left: 0;
+    }
+
+    #actions-bar #filters > li .form > span,
+    #actions-bar #filters > li .filter_by > span,
+    #actions-bar #filters > li .combo-filter > .combo-filter-wrapper > span {
+        width: 49px !important;
+        text-align: right;
+        margin-right: 5px;
+        padding-left: 4px;
+    }
+
+    #actions-bar #filters > li .filter_by .filter-wrapper {
+        width: calc(100% - 64px);
+    }
+
+        #actions-bar #filters > li .filter_by .filter-wrapper .dropdown-toggle {
+            margin-right: 10px;
+            margin-left: 0;
+            padding-right: 3px;
+        }
+
+            #actions-bar #filters > li .filter_by .filter-wrapper .dropdown-toggle .glyphicon.glyphicon-menu-down {
+                float: right;
+                padding-right: 0;
+            }
+
+    #actions-bar #filters > li .date .editable {
+        padding: 8px 8px 7px 20px;
+        margin-left: 3px;
+        margin-right: 0;
+    }
+
+    #actions-bar #filters > li .date .datepicker-trigger {
+        margin-right: 0;
+        margin-left: -20px;
+        position: inherit;
+    }
+
+    #actions-bar #filters > li .date .time-picker {
+        background-position-x: right;
+    }
+
+    #actions-bar #filters > li .date .editable.time-picker {
+        padding: 8px 8px 7px 20px;
+    }
+
+    #actions-bar #filters > li[for='commissions_report_tab'] .floating-filters div.combo-filter div.combo-filter-wrapper span {
+        width: 70px !important;
+    }
+
+    #actions-bar #filters > li[for^='sales_report_'] .floating-filters div.combo-filter div.combo-filter-wrapper span, #actions-bar #filters > li[for^='sales_report_'] .floating-filters div.filter_by span {
+        width: 70px !important;
+    }
+
+    #actions-bar #filters > li[for='customers'] .columns > label, #actions-bar #filters > li[for='suppliers'] .columns > label, #actions-bar #filters > li[for='items'] .columns > label {
+        float: left;
+        text-align: left;
+    }
+
+    #actions-bar .list-group {
+        padding-left: 0;
+    }
+
+.form .editable {
+    border-bottom: 1px solid #eee;
+}
+
+.cell_actions ul {
+    right: 0;
+    left: initial;
+}
+
+.datepicker {
+    right: auto;
+}
+
+#selectOptionsContainer {
+    direction: ltr;
+}
+
+#content-area .tab-pane.grid .elements .element-container {
+    float: left;
+    direction: ltr;
+}
+
+    #content-area .tab-pane.grid .elements .element-container .element .fields .field label {
+        text-align: right;
+    }
+
+        #content-area .tab-pane.grid .elements .element-container .element .fields .field label + span {
+            text-align: left;
+            direction: rtl;
+        }
+
+    #content-area .tab-pane.grid .elements .element-container .element .fields .field.status span {
+        direction: rtl;
+    }
+
+    #content-area .tab-pane.grid .elements .element-container .element .fields .field.direction-ltr {
+        direction: rtl;
+    }
+
+        #content-area .tab-pane.grid .elements .element-container .element .fields .field.direction-ltr label {
+            text-align: left;
+        }
+
+        #content-area .tab-pane.grid .elements .element-container .element .fields .field.direction-ltr span {
+            text-align: right;
+        }
+
+    #content-area .tab-pane.grid .elements .element-container .element .buttons li.text-left {
+        text-align: center !important;
+        padding-left: unset;
+        padding-right: 10px;
+    }
+
+    #content-area .tab-pane.grid .elements .element-container .element .buttons li.text-right {
+        text-align: center !important;
+        padding-left: 10px;
+        padding-right: unset;
+    }
+
+    #content-area .tab-pane.grid .elements .element-container .element .buttons li.divider {
+        border-right: none;
+        border-left: 1px solid #cccccc;
+        margin-right: 0;
+        margin-left: -1px;
+    }
+
+    #content-area .tab-pane.grid .elements .element-container .element .remove-dialog ul li.confirm {
+        border-left: none;
+        border-right: 1px solid #aaaaaa;
+    }
+
+#content-area .tab-pane.grid .elements .tab-date-line {
+    text-align: left;
+}
+
+#content-area .tab-pane.grid .no-elements-info, #content-area .tab-pane.grid .no-results-info {
+    float: left;
+}
+
+#content-area .tab-pane.list div.elements div.element-container div.element > .selectable {
+    right: unset;
+}
+
+#content-area .tab-pane.list div.elements div.element-container div.element > .dropdown {
+    float: right;
+}
+
+    #content-area .tab-pane.list div.elements div.element-container div.element > .dropdown .dropdown-menu {
+        left: auto;
+        right: 0;
+    }
+
+        #content-area .tab-pane.list div.elements div.element-container div.element > .dropdown .dropdown-menu:before {
+            left: unset;
+            right: 5px;
+        }
+
+        #content-area .tab-pane.list div.elements div.element-container div.element > .dropdown .dropdown-menu:after {
+            left: unset;
+            right: 4px;
+        }
+
+#content-area .tab-pane.list div.elements div.element-container div.element > .selectable ~ .cells {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+#content-area .tab-pane.list div.elements div.element-container div.element > .cells {
+    float: right;
+}
+
+    #content-area .tab-pane.list div.elements div.element-container div.element > .cells .cell {
+        float: left;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+        #content-area .tab-pane.list div.elements div.element-container div.element > .cells .cell.negative {
+            direction: rtl;
+        }
+
+        #content-area .tab-pane.list div.elements div.element-container div.element > .cells .cell.image {
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 0;
+        }
+
+#content-area .tab-pane.list div.elements div.element-container div.element > .buttons {
+    float: right;
+}
+
+    #content-area .tab-pane.list div.elements div.element-container div.element > .buttons li {
+        border-right: 1px solid #cccccc;
+    }
+
+        #content-area .tab-pane.list div.elements div.element-container div.element > .buttons li:last-of-type {
+            border-right: 0;
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+#content-area .tab-pane.list .elements .element-container .element .buttons li {
+    padding: 0 0 0 15px;
+    border-right: 1px solid #ccc;
+    border-left: 0;
+}
+
+    #content-area .tab-pane.list .elements .element-container .element .buttons li:last-of-type {
+        border-left: 0;
+        padding-left: 0px;
+        border-right: 0;
+        padding-right: 10px;
+    }
+#modals {
+    direction: ltr;
+}
+    #modals .modal {
+        direction: ltr;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-header .modal-bar .title, #modals .modal .modal-dialog .modal-content .modal-header .modal-bar .header-input {
+        float: left;
+    }
+
+        #modals .modal .modal-dialog .modal-content .modal-header .modal-bar .title .seria-label, #modals .modal .modal-dialog .modal-content .modal-header .modal-bar .header-input .seria-label {
+            float: right;
+        }
+
+    #modals .modal .modal-dialog .modal-content .modal-header .modal-bar .actions {
+        float: right;
+        margin-right: -7px;
+        margin-left: 15px;
+    }
+
+        #modals .modal .modal-dialog .modal-content .modal-header .modal-bar .actions .option-wrapper ul.dropdown-menu {
+            right: 20px;
+            left: auto;
+        }
+
+        #modals .modal .modal-dialog .modal-content .modal-header .modal-bar .actions button.btn-ok-plus {
+            direction: rtl;
+        }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .table th.right-border, #modals .modal .modal-dialog .modal-content .modal-body form .table td.right-border {
+        border-left: 1px solid #dddddd !important;
+        border-right: none !important;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form > div:first-of-type > div {
+        float: left;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type {
+        float: left;
+    }
+
+        #modals .modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type label[data-i18n='FieldCustomer'] {
+            width: 40px !important;
+        }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type {
+        float: right;
+        margin-right: unset;
+    }
+
+        #modals .modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type.no-right-gap {
+            padding-left: 0;
+            padding-right: 15px !important;
+        }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .totals > div.text-left > span {
+        text-align: left;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .totals .qty-total {
+        margin-right: 127px;
+        margin-left: 0;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .totals .col-sm-offset-6 {
+        margin-left: 50%;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .totals.row.last > div {
+        float: left;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .text-right {
+        text-align: left !important;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .text-left {
+        text-align: right !important;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .table th {
+        text-align: left;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .btn.btn-xs {
+        margin-right: 0;
+        margin-left: 3px;
+        float: right !important;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form div.select-container + button.btn.btn-xs, #modals .modal .modal-dialog .modal-content .modal-body form button.btn.btn-xs + button.btn.btn-xs {
+        float: none !important;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form button.datepicker-trigger {
+        margin-right: unset;
+        margin-left: -16px;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form input.input.date-picker {
+        padding-left: 0;
+        padding-right: 17px;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form input.input.time-picker {
+        background-position-x: right;
+        padding-left: 5px;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form input.input.date-time-picker {
+        background-position-x: right;
+        padding-left: 0;
+        padding-right: 20px;
+        direction: rtl;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .bootstrap-datetimepicker-widget {
+        direction: rtl;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .select-container {
+        padding-left: unset;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .number, #modals .modal .modal-dialog .modal-content .modal-body form td.negative {
+        direction: rtl;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form a.prev i.glyphicon-chevron-right:before {
+        content: "\e080";
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form a.next i.glyphicon-chevron-left:before {
+        content: "\e079";
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form label {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .spoiler-header {
+        text-align: left !important;
+    }
+
+        #modals .modal .modal-dialog .modal-content .modal-body form .spoiler-header .glyphicon-plus {
+            margin-left: 0;
+            margin-right: 5px;
+        }
+
+        #modals .modal .modal-dialog .modal-content .modal-body form .spoiler-header .glyphicon-minus {
+            margin-left: 0;
+            margin-right: 5px;
+        }
+
+    #modals .modal .modal-dialog .modal-content .modal-body form .spoiler-content .row > div,
+    #modals .modal .modal-dialog .modal-content .modal-body form .spoiler-content .rows-content > div > div {
+        float: left;
+    }
+
+    #modals .modal .modal-dialog .modal-content .modal-footer .actions, #modals .modal .modal-dialog .modal-content .modal-header .actions {
+        direction: ltr;
+    }
+
+    #modals #logout .modal-dialog {
+        right: 40px;
+        left: initial;
+    }
+
+    #modals #language form label:first-of-type {
+        margin-left: 0;
+    }
+
+    #modals #language form label:last-of-type {
+        margin-left: 13px;
+    }
+
+    #modals #close_all_tabs_confirmation_modal .modal-dialog {
+        right: 50px;
+        left: initial;
+    }
+
+    #modals .modal .modal-dialog {
+        right: auto;
+        left: 50%;
+    }
+ 
+    #modals #delete_line.modal .modal-dialog {
+        right: auto !important;
+        margin-left: 0 !important;
+    }
+
+    #modals #invoice.modal .modal-dialog .modal-content .modal-body form div.totals.vat_groups + div > div {
+        float: left;
+    }
+
+    #modals #return_from_customer.modal .modal-dialog .modal-content .modal-body form label[data-i18n='FieldCustomer'] {
+        padding-left: 0 !important;
+    }
+
+    #modals #return_from_customer.modal .modal-dialog .modal-content .modal-body form label[data-i18n='ModalInvoicesLocation'] {
+        width: 65px !important;
+    }
+
+    #modals #history_purchases_customer.modal .modal-dialog .modal-content .modal-body form label {
+        text-align: right !important;
+    }
+
+    #modals #history_purchases_customer.modal .modal-dialog .modal-content .modal-body form div.select-container {
+        float: none;
+    }
+
+    #modals #email.modal .modal-dialog .modal-content .modal-body form input#email_copy {
+        float: left !important;
+    }
+
+    #modals #account_balance.modal .modal-dialog .modal-content .modal-body form > div.row.form-group a {
+        float: none;
+    }
+
+        #modals #account_balance.modal .modal-dialog .modal-content .modal-body form > div.row.form-group a.prev-acc {
+            float: left;
+        }
+
+            #modals #account_balance.modal .modal-dialog .modal-content .modal-body form > div.row.form-group a.prev-acc .glyphicon-chevron-right:before {
+                content: "\e080";
+            }
+
+        #modals #account_balance.modal .modal-dialog .modal-content .modal-body form > div.row.form-group a.next-acc .glyphicon-chevron-left:before {
+            content: "\e079";
+        }
+
+    #modals #account_balance.modal .modal-dialog .modal-content .modal-body form > div.row.form-group > div:last-of-type {
+        float: left;
+    }
+
+    #modals #account_balance.modal .modal-dialog .modal-content .modal-body form > div.row.form-group:nth-of-type(2) > div:first-of-type {
+        margin-left: 8.33333333%;
+        margin-right: 0;
+    }
+
+    #modals #account_balance.modal .modal-dialog .modal-content .modal-body form .row table.table.header tr th {
+        text-align: left !important;
+    }
+
+        #modals #account_balance.modal .modal-dialog .modal-content .modal-body form .row table.table.header tr th:first-of-type {
+            border-right: 1px solid #ddd;
+        }
+
+    #modals #customer_more.modal .modal-dialog .modal-content .modal-body form div.customer-more > div {
+        float: none;
+    }
+
+        #modals #customer_more.modal .modal-dialog .modal-content .modal-body form div.customer-more > div > div:first-of-type {
+            float: left;
+        }
+
+    #modals #recipient.modal .modal-dialog .modal-content .modal-body form div.row:first-of-type {
+        display: -webkit-box;
+    }
+
+        #modals #recipient.modal .modal-dialog .modal-content .modal-body form div.row:first-of-type .select-container {
+            margin-left: -30px;
+            margin-right: 0 !important;
+        }
+
+    #modals #recipient.modal .modal-dialog .modal-content .modal-body form .totals.receipt .form-group > span {
+        margin-right: 0;
+        margin-left: 25px;
+    }
+
+        #modals #recipient.modal .modal-dialog .modal-content .modal-body form .totals.receipt .form-group > span input {
+            padding-right: 0;
+        }
+
+    #modals #recipient.modal .modal-dialog .modal-content .modal-body form .date-time-picker {
+        direction: rtl;
+    }
+
+#payment_cashing_order_form .modal-body form > div.row.form-group:first-of-type > div:first-of-type {
+    float: none;
+}
+
+    #payment_cashing_order_form .modal-body form > div.row.form-group:first-of-type > div:first-of-type > div.row.form-group > div:first-of-type {
+        float: left;
+    }
+
+#customer .modal-body form > div.row > div:first-of-type {
+    float: left;
+}
+
+    #customer .modal-body form > div.row > div:first-of-type > div.row.form-group > div:first-of-type {
+        float: left;
+    }
+
+    #customer .modal-body form > div.row > div:first-of-type #company > div.row.form-group > div:first-of-type, #customer .modal-body form > div.row > div:first-of-type #address > div.row.form-group > div:first-of-type, #customer .modal-body form > div.row > div:first-of-type #delegate_info > div.row.form-group > div:first-of-type, #customer .modal-body form > div.row > div:first-of-type #club > div.row.form-group > div:first-of-type {
+        float: left;
+    }
+
+    #customer .modal-body form > div.row > div:first-of-type #company > div:not(.row) > div:first-of-type > div:first-of-type, #customer .modal-body form > div.row > div:first-of-type #address > div:not(.row) > div:first-of-type > div:first-of-type, #customer .modal-body form > div.row > div:first-of-type #delegate_info > div:not(.row) > div:first-of-type > div:first-of-type, #customer .modal-body form > div.row > div:first-of-type #club > div:not(.row) > div:first-of-type > div:first-of-type {
+        float: left;
+    }
+
+#customer .modal-body form > div.row > div:last-of-type {
+    float: left !important;
+}
+
+    #customer .modal-body form > div.row > div:last-of-type > div.row.form-group > div.text-center {
+        padding-left: 36px !important;
+    }
+
+#customer .modal-body form #contacts_block > div.row.form-group {
+    float: none;
+}
+
+    #customer .modal-body form #contacts_block > div.row.form-group > div:first-of-type {
+        float: left;
+    }
+
+        #customer .modal-body form #contacts_block > div.row.form-group > div:first-of-type > div:first-of-type {
+            text-align: left;
+        }
+
+#customer .modal-body form #contacts_block #contacts .rows-content .clone > div.no-left-gap {
+    padding-left: 15px !important;
+    padding-right: 0 !important;
+}
+
+#customer .modal-body form #contacts_block #contacts .rows-content .clone > div:nth-of-type(4) {
+    padding-right: 15px !important;
+    padding-left: 30px !important;
+}
+
+    #customer .modal-body form #contacts_block #contacts .rows-content .clone > div:nth-of-type(4) input {
+        margin-right: unset !important;
+        margin-left: -15px;
+        float: left;
+    }
+
+#customer .modal-body form .btn.btn-xs {
+    left: unset;
+    right: -13px;
+}
+
+#modals #add_pos_image.modal .modal-dialog .modal-content .modal-body form > div:first-child > div {
+    float: unset;
+}
+
+    #modals #add_pos_image.modal .modal-dialog .modal-content .modal-body form > div:first-child > div div {
+        float: left;
+    }
+
+#modals #add_pos_image.modal .modal-dialog .modal-content .modal-body form > div:last-child > div {
+    float: initial;
+    margin-right: -15px;
+}
+
+#modals #location.modal .modal-dialog {
+    width: 585px !important;
+}
+
+#modals #invoice_supplier.modal .modal-dialog .modal-content .modal-body form > div:nth-child(2) {
+    float: left;
+}
+
+#modals #invoice_supplier.modal .modal-dialog .modal-content .modal-body form .qty-total {
+    margin-right: 205px;
+    margin-left: 0 !important;
+}
+
+#modals #invoice_supplier.modal .modal-dialog .modal-content .modal-body form .final-total {
+    text-align: left;
+}
+
+#modals #inner_delegate_data.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type {
+    float: none;
+}
+
+#modals #return_to_vendor.modal .modal-dialog .modal-content .modal-body form > div:nth-last-child(2) > div > div:first-child > div {
+    float: left;
+}
+
+    #modals #return_to_vendor.modal .modal-dialog .modal-content .modal-body form > div:nth-last-child(2) > div > div:first-child > div div {
+        text-align: left;
+    }
+
+#modals #return_to_vendor.modal .modal-dialog .modal-content .modal-body form > div:nth-last-child(2) > div > div:last-child > div > label:nth-child(2) {
+    margin-right: 0 !important;
+}
+
+#modals #return_to_vendor.modal .modal-dialog .modal-content .modal-body form label {
+    text-align: right;
+}
+
+    #modals #return_to_vendor.modal .modal-dialog .modal-content .modal-body form label[data-i18n='AdFoaiaParcurs'], #modals #return_to_vendor.modal .modal-dialog .modal-content .modal-body form label[data-i18n='AdDelegation'] {
+        width: 125px !important;
+    }
+
+    #modals #return_to_vendor.modal .modal-dialog .modal-content .modal-body form label[data-i18n='FieldSupplier'] {
+        padding-left: 0 !important;
+    }
+
+#modals #vendor_order.modal .modal-dialog .modal-content .modal-body form label[data-i18n='FieldSupplier'] {
+    padding-left: 0 !important;
+}
+
+#modals #payment.modal .modal-dialog .modal-content .modal-body form > div.select-invoices > div:last-of-type {
+    float: none;
+}
+
+#modals #payment.modal .modal-dialog .modal-content .modal-body form td[data-replace='$invoice'] {
+    text-align: left !important;
+}
+
+#modals #supplier.modal .modal-dialog .modal-content .modal-body form > div.row > div:first-of-type {
+    float: left;
+}
+
+    #modals #supplier.modal .modal-dialog .modal-content .modal-body form > div.row > div:first-of-type > div.row.form-group > div:first-of-type {
+        float: left;
+    }
+
+#modals #supplier.modal .modal-dialog .modal-content .modal-body form #contacts > .row {
+    float: none;
+}
+
+    #modals #supplier.modal .modal-dialog .modal-content .modal-body form #contacts > .row > div {
+        float: left;
+    }
+
+#modals #supplier.modal .modal-dialog .modal-content .modal-body form #contacts .rows-content {
+    float: left;
+}
+
+    #modals #supplier.modal .modal-dialog .modal-content .modal-body form #contacts .rows-content .clone > div {
+        float: left;
+    }
+
+        #modals #supplier.modal .modal-dialog .modal-content .modal-body form #contacts .rows-content .clone > div.no-left-gap {
+            padding-left: 15px !important;
+            padding-right: 0 !important;
+        }
+
+        #modals #supplier.modal .modal-dialog .modal-content .modal-body form #contacts .rows-content .clone > div:nth-of-type(4) {
+            padding-right: 15px !important;
+            padding-left: 30px !important;
+        }
+
+            #modals #supplier.modal .modal-dialog .modal-content .modal-body form #contacts .rows-content .clone > div:nth-of-type(4) input {
+                margin-right: unset !important;
+                margin-left: -15px;
+                float: left;
+            }
+
+#modals #invoice_receipt.modal .modal-dialog .modal-content .modal-body form > div ul.nav.nav-tabs {
+    padding-left: 0;
+}
+
+    #modals #invoice_receipt.modal .modal-dialog .modal-content .modal-body form > div ul.nav.nav-tabs li {
+        float: left;
+    }
+
+        #modals #invoice_receipt.modal .modal-dialog .modal-content .modal-body form > div ul.nav.nav-tabs li a {
+            margin-left: 0;
+            margin-right: 2px;
+        }
+
+#modals #invoice_receipt.modal .modal-dialog .modal-content .modal-body form label[data-i18n='FieldCustomer'] {
+    padding-left: 0 !important;
+}
+
+#modals #invoice_receipt.modal .modal-dialog .modal-content .modal-body form label[data-i18n='ModalInvoicesLocation'] {
+    width: 50px !important;
+}
+
+#modals #z_report_view.modal .modal-dialog .modal-content .modal-body table tbody tr td[colspan='2'] {
+    text-align: left !important;
+}
+
+#modals #internal_order.modal .modal-dialog .modal-content .modal-body form table + div.scrollable, #modals #production_order.modal .modal-dialog .modal-content .modal-body form table + div.scrollable, #modals #add_inventory_count.modal .modal-dialog .modal-content .modal-body form table + div.scrollable {
+    float: none;
+}
+
+#modals #internal_order.modal .modal-dialog .modal-content .modal-body form .row.totals.last, #modals #production_order.modal .modal-dialog .modal-content .modal-body form .row.totals.last, #modals #add_inventory_count.modal .modal-dialog .modal-content .modal-body form .row.totals.last {
+    margin-right: -15px;
+}
+
+    #modals #internal_order.modal .modal-dialog .modal-content .modal-body form .row.totals.last td:first-child span, #modals #production_order.modal .modal-dialog .modal-content .modal-body form .row.totals.last td:first-child span, #modals #add_inventory_count.modal .modal-dialog .modal-content .modal-body form .row.totals.last td:first-child span {
+        float: right !important;
+    }
+
+    #modals #internal_order.modal .modal-dialog .modal-content .modal-body form .row.totals.last td:first-child button, #modals #production_order.modal .modal-dialog .modal-content .modal-body form .row.totals.last td:first-child button, #modals #add_inventory_count.modal .modal-dialog .modal-content .modal-body form .row.totals.last td:first-child button {
+        float: left;
+    }
+
+    #modals #internal_order.modal .modal-dialog .modal-content .modal-body form .row.totals.last td, #modals #production_order.modal .modal-dialog .modal-content .modal-body form .row.totals.last td, #modals #add_inventory_count.modal .modal-dialog .modal-content .modal-body form .row.totals.last td {
+        text-align: right;
+    }
+
+#modals #transfer_document.modal .modal-dialog .modal-content .modal-body form .totals > div:first-child label, #modals #ticket_document.modal .modal-dialog .modal-content .modal-body form .totals > div:first-child label {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+    #modals #transfer_document.modal .modal-dialog .modal-content .modal-body form .totals > div:first-child label input[type="radio"], #modals #ticket_document.modal .modal-dialog .modal-content .modal-body form .totals > div:first-child label input[type="radio"] {
+        margin-right: 0;
+        margin-left: -20px;
+    }
+
+#modals #transfer_document.modal .modal-dialog .modal-content .modal-body form .totals .form-group > span, #modals #ticket_document.modal .modal-dialog .modal-content .modal-body form .totals .form-group > span {
+    margin-right: 5px;
+    margin-left: 25px;
+}
+
+#modals #transfer_document.modal .modal-dialog .modal-content .modal-body form .totals .qty-total, #modals #ticket_document.modal .modal-dialog .modal-content .modal-body form .totals .qty-total {
+    float: none;
+}
+
+#modals #add_inventory_recalculation.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type, #modals #location_balance.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type {
+    float: left !important;
+}
+
+#modals #add_inventory_recalculation.modal .modal-dialog .modal-content .modal-body form th, #modals #location_balance.modal .modal-dialog .modal-content .modal-body form th {
+    direction: rtl;
+}
+
+#modals #add_inventory_recalculation.modal .modal-dialog .modal-content .modal-body form .clone div, #modals #location_balance.modal .modal-dialog .modal-content .modal-body form .clone div {
+    float: left;
+}
+
+#modals #add_inventory_recalculation.modal .modal-dialog .modal-content .modal-body form .balance-row td + td, #modals #location_balance.modal .modal-dialog .modal-content .modal-body form .balance-row td + td {
+    text-align: left !important;
+}
+
+#modals #add_inventory_recalculation.modal .modal-dialog .modal-content .modal-body form .no-right-gap, #modals #location_balance.modal .modal-dialog .modal-content .modal-body form .no-right-gap {
+    margin-left: 15px;
+}
+
+#modals #add_inventory_recalculation.modal .modal-dialog .modal-content .modal-body form tr.total td.temp, #modals #location_balance.modal .modal-dialog .modal-content .modal-body form tr.total td.temp {
+    text-align: left !important;
+}
+
+#modals #add_inventory_recalculation.modal .modal-dialog .modal-content .modal-body form label, #modals #location_balance.modal .modal-dialog .modal-content .modal-body form label {
+    text-align: right;
+}
+
+#modals #item_balance.modal .modal-dialog .modal-content .modal-body form > div > div, #modals #group_balance.modal .modal-dialog .modal-content .modal-body form > div > div {
+    float: left !important;
+}
+
+#modals #item_balance.modal .modal-dialog .modal-content .modal-body form label, #modals #group_balance.modal .modal-dialog .modal-content .modal-body form label {
+    float: left;
+}
+
+#modals #item_balance.modal .modal-dialog .modal-content .modal-body form .table.table.header thead tr th:last-of-type, #modals #group_balance.modal .modal-dialog .modal-content .modal-body form .table.table.header thead tr th:last-of-type {
+    border-right: none;
+}
+
+#modals #item_balance.modal .modal-dialog .modal-content .modal-body form .table.table.header thead tr th:first-of-type, #modals #group_balance.modal .modal-dialog .modal-content .modal-body form .table.table.header thead tr th:first-of-type {
+    border-right: 1px solid #ddd;
+}
+
+#modals #item_balance.modal .modal-dialog .modal-content .modal-body form .centred-select, #modals #group_balance.modal .modal-dialog .modal-content .modal-body form .centred-select {
+    margin-left: 0 !important;
+}
+
+#modals #item_locations_balance.modal tr.total.bottom-table td.temp {
+    text-align: left !important;
+}
+
+#modals #item_group.modal .modal-dialog .modal-content .modal-body form > div > div, #modals #unit.modal .modal-dialog .modal-content .modal-body form > div > div {
+    float: left !important;
+}
+
+#modals #add_item_model.modal .modal-dialog .modal-content .modal-body form > div:first-of-type {
+    float: left;
+}
+
+    #modals #add_item_model.modal .modal-dialog .modal-content .modal-body form > div:first-of-type > div {
+        float: left;
+    }
+
+        #modals #add_item_model.modal .modal-dialog .modal-content .modal-body form > div:first-of-type > div > div {
+            float: left;
+        }
+
+#modals #add_item_model.modal .modal-dialog .modal-content .modal-body form > div:last-of-type > div {
+    float: none;
+}
+
+#modals #promotion.modal .modal-dialog .modal-content .modal-body form > div > div {
+    float: left;
+}
+
+    #modals #promotion.modal .modal-dialog .modal-content .modal-body form > div > div [name="date_from"] + button + div, #modals #promotion.modal .modal-dialog .modal-content .modal-body form > div > div [name="date_from"] + div.error + button + div {
+        float: right !important;
+        margin-right: -13px;
+    }
+
+    #modals #promotion.modal .modal-dialog .modal-content .modal-body form > div > div div.div-get-sum {
+        float: right !important;
+    }
+
+#modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div {
+    float: left;
+}
+
+    #modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div.barcodes-block > div > div, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div.barcodes-block > div > div {
+        float: left;
+    }
+
+        #modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div.barcodes-block > div > div.barcode-input, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div.barcodes-block > div > div.barcode-input {
+            padding-right: 15px !important;
+            padding-left: 0;
+        }
+
+        #modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div.barcodes-block > div > div.barcode-calculate, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div.barcodes-block > div > div.barcode-calculate {
+            margin-left: 0;
+        }
+
+            #modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div.barcodes-block > div > div.barcode-calculate + div, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div.barcodes-block > div > div.barcode-calculate + div {
+                padding-left: 15px !important;
+            }
+
+    #modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div #expiration_management, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div #expiration_management {
+        margin-left: 0 !important;
+        margin-right: 35px;
+    }
+
+    #modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div [name="weight"], #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div [name="weight"] {
+        margin-left: 0 !important;
+        margin-right: 8px;
+    }
+
+#modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type {
+    direction: rtl;
+}
+
+    #modals #add_item.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type div.select-container, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type div.select-container {
+        direction: ltr;
+    }
+
+#modals #add_item.modal .modal-dialog .modal-content .modal-body form button.btn.btn-xs, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form button.btn.btn-xs {
+    margin-right: -17px;
+}
+
+#modals #add_item.modal .modal-dialog .modal-content .modal-body form div.select-container + button.btn.btn-xs, #modals [id^="edit_item_"].modal .modal-dialog .modal-content .modal-body form div.select-container + button.btn.btn-xs {
+    float: right !important;
+}
+
+#modals #email_marketing.modal .modal-dialog .modal-content .modal-body form div:first-of-type div div div {
+    float: left;
+}
+
+#modals #add_commission.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type, #modals #add_agent.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type, #modals #article_add.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type {
+    float: left;
+}
+
+    #modals #add_commission.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type button.btn.btn-xs, #modals #add_agent.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type button.btn.btn-xs, #modals #article_add.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type button.btn.btn-xs {
+        left: unset;
+        right: -13px;
+    }
+
+#modals #workhours_hours_reporting.modal .modal-dialog .modal-content .modal-body form label {
+    margin-right: 0 !important;
+    margin-left: 15px;
+}
+
+#modals #workhours_hours_reporting.modal .modal-dialog .modal-content .modal-body form button.btn.btn-xs {
+    left: unset !important;
+    right: 10px;
+}
+
+#modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div > div:first-of-type > div > div:first-of-type {
+    float: left;
+}
+
+#modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div .drop-zone {
+    margin-left: 75px;
+}
+
+#modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div .no-right-gap {
+    padding-left: 0;
+}
+
+#modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div > div:nth-last-of-type(2) > div:first-of-type > div {
+    float: left;
+}
+
+#modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div > div:nth-last-of-type(2) > div:last-of-type > div:first-of-type > div {
+    float: left;
+}
+
+#modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div > div:nth-last-of-type(2) > div:last-of-type > div:last-of-type > div > div {
+    float: left;
+}
+
+    #modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div > div:nth-last-of-type(2) > div:last-of-type > div:last-of-type > div > div a {
+        float: right;
+    }
+
+#modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type {
+    float: left;
+}
+
+    #modals #company_settings.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type > div.row.form-group > div {
+        float: left;
+    }
+
+#modals #edit_user_left.modal .modal-dialog .modal-content .modal-body form > div.row > div {
+    float: left;
+}
+
+#modals #edit_user_left.modal .modal-dialog .modal-content .modal-body form > div:not(.row) > div {
+    float: none;
+    margin-right: -15px;
+}
+
+    #modals #edit_user_left.modal .modal-dialog .modal-content .modal-body form > div:not(.row) > div > div {
+        float: left;
+    }
+
+#modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div {
+    float: left;
+}
+
+    #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div > div {
+        float: none;
+        margin-right: -15px;
+    }
+
+        #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div > div > div {
+            float: left;
+        }
+
+        #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type > div.row.form-group {
+            float: none;
+        }
+
+            #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div > div:last-of-type > div.row.form-group > div {
+                float: left;
+            }
+
+    #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div:nth-of-type(2) > div {
+        float: none;
+    }
+
+        #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div:nth-of-type(2) > div > div:first-of-type {
+            float: none;
+        }
+
+            #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div:nth-of-type(2) > div > div:first-of-type > div {
+                margin-left: 54px;
+                margin-right: 15px !important;
+            }
+
+        #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div:nth-of-type(2) > div > div:last-of-type {
+            float: none;
+            margin-left: 68px;
+            margin-right: 0;
+        }
+
+            #modals #user_modal.modal .modal-dialog .modal-content .modal-body form > div:nth-of-type(2) > div > div:last-of-type > div {
+                float: left;
+            }
+
+#modals [id^='#ticket_view_'].modal .modal-dialog .modal-content .modal-body table.print_view tbody table.list tfoot tr td.border-right {
+    border-left: 1px solid black;
+    border-right: none;
+    text-align: left !important;
+}
+
+#modals #print_barcodes.modal .modal-dialog .modal-content .modal-body table.table tbody tr td {
+    text-align: left !important;
+}
+
+#print_view tr th.date, #print_view tr td.date {
+    text-align: right;
+}
+
+#print_view tbody tr td.date {
+    text-align: right;
+}
+
+    #print_view tbody tr td.date span[data-i18n='PDFTime'] + span {
+        margin-right: 33px;
+    }
+
+#print_view tbody tr td.location {
+    text-align: left !important;
+}
+
+#print_view tbody tr > td > table.list thead th {
+    text-align: left !important;
+}
+
+    #print_view tbody tr > td > table.list thead th:not(:last-child), #print_view tbody tr > td > table.list thead td:not(:last-child) {
+        border-left: none;
+        border-right: 1px solid black;
+    }
+
+#print_view tbody tr > td > table.list tbody tr > td {
+    direction: rtl;
+}
+
+    #print_view tbody tr > td > table.list tbody tr > td.item-cell {
+        text-align: left;
+        direction: ltr;
+    }
+
+#print_view tbody tr > td > table.list tbody th:not(:last-child), #print_view tbody tr > td > table.list tbody td:not(:last-child) {
+    border-left: none;
+    border-right: 1px solid black;
+}
+
+#print_view tbody tr > td > table.list tfoot tr td:not(:last-child) {
+    text-align: right;
+}
+
+    #print_view tbody tr > td > table.list tfoot tr td:not(:last-child) td {
+        text-align: right !important;
+    }
+
+#print_view tbody tr > td > table.list tfoot tr td.align-left {
+    text-align: right !important;
+}
+
+    #print_view tbody tr > td > table.list tfoot tr td.align-left + td {
+        text-align: left !important;
+    }
+
+        #print_view tbody tr > td > table.list tfoot tr td.align-left + td.align-left {
+            text-align: right !important;
+        }
+
+        #print_view tbody tr > td > table.list tfoot tr td.align-left + td + td {
+            text-align: left;
+        }
+
+#print_view tbody tr > td > table.list tfoot tr td.location {
+    text-align: left !important;
+}
+
+#print_view tbody tr > td > table.list tfoot tr td span.float-left {
+    float: right;
+}
+
+#print_view tbody tr > td > table.list tfoot tr td.negative {
+    direction: rtl;
+}
+
+#print_view tbody tr > td > table.list tfoot tr td[data-i18n='ModalSubTotal'] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#print_view tbody tr > td > table.list tfoot tr.border-right {
+    border-left: 1px solid black;
+    border-right: none;
+}
+
+#view_receipt table tr td {
+    text-align: left;
+}
+
+    #view_receipt table tr td.text-left {
+        text-align: right !important;
+        padding-right: 5px;
+    }
+
+.text-right {
+    text-align: left !important;
+}
+
+.text-left {
+    text-align: right !important;
+}
+
+.btn-toolbar > .btn-group, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+
+#modals .modal .modal-dialog .modal-content .modal-body .input, #modals .modal .modal-dialog .modal-content .modal-body .select-input {
+    text-align: left;
+}
+
+
+#actions-bar #filters #hide-buttons {
+    left: 0;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #ff7043;
+    border-right: 0;
+    z-index: 2;
+}
+
+    #actions-bar #filters #hide-buttons .glyphicon {
+        top: -12px;
+        left: -24px;
+        right: auto;
+        transform: rotate( 225deg);
+    }
+
+#actions-bar #filters .floating-buttons.hidden-buttons ~ #hide-buttons > .glyphicon {
+    transform: rotate( 45deg);
+    top: -12px;
+}
+#actions-bar #filters > li.list .columns {
+    text-align: right;
+}
+    #actions-bar #filters > li.list .columns label {
+        text-align: left;
+        border-right: 0;
+        border-left: 1px solid #aaa
+    }
+
+label[for=space] {
+    margin: 0 -6px 0 0 !important;
+}

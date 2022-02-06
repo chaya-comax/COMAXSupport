@@ -1,0 +1,13 @@
+{
+  "AnimalDetails": "Animal Details",
+  "GridDeleteInfo": "Caution: This cannot be undone",
+  "FieldErrorInvalidCode": "Code already exists",
+  "FieldErrorInvalid": "Wrong field",
+  "NotifyFileMissing": "File Missing",
+  "LabelSelectFile": "Select import file...",
+  "LableOsekFile": "Osek must be 9 digits",
+  "UserMenuChangeLanguage": "Change Language",
+  "UserMenuLogOut": "Log Out",
+  "UserMenuLogOutSure": "Are you sure want to logout?",
+  "UserMenuHelp": "Help"
+}

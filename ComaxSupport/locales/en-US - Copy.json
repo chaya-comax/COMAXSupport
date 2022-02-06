@@ -1,0 +1,7 @@
+{
+  "GridDeleteInfo": "Caution: This cannot be undone",
+  "FieldErrorInvalidCode": "Code already exists",
+  "FieldErrorInvalid": "Wrong field",
+  "NotifyFileMissing": "File Missing",
+  "LabelSelectFile": "Select import file..."
+}
